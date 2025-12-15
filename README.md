@@ -6,7 +6,7 @@ This repository contains Python scripts for running Deterministic Bayesian Quant
 
 DB-QITE is an algorithm that cools a quantum state toward the ground state of a Hamiltonian through iterative unitary operations. These scripts implement hardware experiments to validate DB-QITE theory predictions.
 
-**Hamiltonian:** `H = (Δ/2)Z + (Ω/2)X`
+**Hamiltonian:** $\hat H = \frac{\Delta}{2} Z + \frac{\Omega}{2} X$
 
 ## File Descriptions
 
