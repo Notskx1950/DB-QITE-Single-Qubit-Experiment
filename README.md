@@ -63,11 +63,11 @@ Each script uses Qualibrate's `NodeParameters` class for configuration. Below ar
 
 | Parameter | Description | Default | Used In |
 |-----------|-------------|---------|---------|
-| `THETA_INIT` | Initial state angle (rad) for `Ry(θ)|0⟩` | π/4 | Cooling rate, debug |
+| `THETA_INIT` | Initial state angle (rad) for $R_y(θ)\lVert0\rangle$ | π/4 | Cooling rate, debug |
 | `TARGET_F0_WARM` | Target fidelity for warm start | 0.6 | Fidelity/Energy vs step |
 | `F0_target` | Target initial fidelity | 0.10 | Fig1 experiment |
 | `THETA_MIN`, `THETA_MAX` | Angle scan range | 0, π | Fidelity gain vs initial |
-| `N_THETA_POINTS` | Number of angles to scan | 15 | Fidelity gain vs initial |
+| `N_THETA_POINTS` | Number of angles to scan | 5 | Fidelity gain vs initial |
 
 ### Convergence Parameters
 
